@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "e99shop",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5599"],
+      "port": 5599
+    },
+    {
+      "name": "jihanmart-backend",
+      "runtimeExecutable": "E:\\devtools\\php\\php.exe",
+      "runtimeArgs": ["E:\\e99shop\\backend\\artisan", "serve", "--host=127.0.0.1", "--port=8000"],
+      "port": 8000
+    }
+  ]
+}

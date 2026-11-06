@@ -1,0 +1,8 @@
+# secrets and machine specific files (backend/.gitignore covers the Laravel app)
+.env
+.env.*
+!.env.example
+*.log
+Thumbs.db
+.DS_Store
+.claude/settings.local.json
